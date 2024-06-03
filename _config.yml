@@ -8,7 +8,7 @@
 
 # Basic Site Settings
 locale                   : "en-US"
-title                    : "Zhongxing Zhang / Personal Homepage"
+title                    : "Zhongxing Zhang's Personal Homepage"
 title_separator          : "-"
 name                     : &name "Zhongxing Zhang"
 description              : # &description "personal description"
