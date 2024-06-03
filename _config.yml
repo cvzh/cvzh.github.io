@@ -22,10 +22,10 @@ repository               : "cvzh/cvzh.github.io"
 author:
   # Biographic information
   avatar           : "Zhongxing.png"
-  name             : "Your Sidebar Name"
+  name             : "Zhongxing Zhang"
   pronouns         : # example: "she/her"  
-  bio              : "Short biography for the left-hand sidebar"
-  location         : "Earth"
+  bio              : # "Short biography for the left-hand sidebar"
+  location         : "Minneapolis, MN, US."
   employer         : "Red Brick University"
   uri              : # URL
   email            : "none@example.org" 
