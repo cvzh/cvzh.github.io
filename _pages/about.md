@@ -15,12 +15,9 @@ Hello! I’m Zhongxing Zhang, a Ph.D. student in Computer Science at the Univers
 - **Image Super-resolution:** Developing algorithms for improving image resolution using low-rank prior and probability-inducing nuclear norm minimization.
 
 ### Education
-<h2 class="hidden">Education</h2>
-<ul class="hidden">
-  <li>Ph.D. in Computer Science, University of Minnesota, Twin Cities</li>
-  <li>M.Eng. in Digital Media Technology, Shandong University of Finance and Economics</li>
-  <li>B.Eng. in Computer Science and Technology, Shandong University of Finance and Economics</li>
-</ul>
+- Ph.D. in Computer Science, University of Minnesota, Twin Cities, 2029 *Expected*
+- M.Eng. in Digital Media Technology, Shandong University of Finance and Economics, 2023
+- B.Eng. in Computer Science and Technology, Shandong University of Finance and Economics, 2018
 
 ### Publications
 - *Single Image Super-resolution Reconstruction Using Non-local Low-rank Prior*
