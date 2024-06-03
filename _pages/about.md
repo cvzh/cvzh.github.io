@@ -1,12 +1,54 @@
 ---
 permalink: /
-title: "Academic Pages is a ready-to-fork GitHub Pages template for academic personal websites"
+title: "About"
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
 
+
+Hello! I’m Zhongxing Zhang, a Ph.D. student in Computer Science at the University of Minnesota, Twin Cities. My research interests include Machine Learning, Data Mining, and Computer Vision, particularly in image restoration and image super-resolution. Prior to that, I received my Master and Bachelor degrees in Shandong University of Finance and Economics, where I was advised by Prof. Hui Liu.
+
+### Research Interests
+- **Image Restoration:** Innovating approaches to enhance image quality and recover image details.
+- **Super-resolution:** Developing algorithms for improving image resolution using low-rank prior and probability-inducing nuclear norm minimization.
+
+### Education
+<ul class="hidden">
+  <li>Ph.D. in Computer Science, University of Minnesota, Twin Cities</li>
+  <li>M.Eng. in Digital Media Technology, Shandong University of Finance and Economics</li>
+  <li>B.Eng. in Computer Science and Technology, Shandong University of Finance and Economics</li>
+</ul>
+
+### Publications
+- *Single Image Super-resolution Reconstruction Using Non-local Low-rank Prior*
+- *Super-resolution Reconstruction Using Probability Model Combined with Non-local Low-rank Prior*
+- *Image Restoration Using Probability-inducing Nuclear Norm Minimization*
+
+### Technical Skills
+- **Programming Languages:** Python, MATLAB, Java, C/C++, SQL, JavaScript, HTML/CSS
+- **Developer Tools:** PyCharm, Git, Docker, GCP, Visual Studio Code, Microsoft Visual Studio, Eclipse
+- **Libraries:** PyTorch, pandas, NumPy, Matplotlib, seaborn, scikit-learn
+
+### Experience
+- **Graduate Research Assistant**
+  - Conducted extensive experiments on image super-resolution and denoising using various datasets.
+  - Developed innovative algorithms for image enhancement and reconstruction.
+
+- **Volunteer Teacher**
+  - Taught multiple subjects including Chemistry, English, Mathematics, and Computer Science.
+  - Organized environmental protection actions and public welfare activities.
+
+### Achievements and Awards
+- National Scholarship for Graduate Student
+- Postgraduate Research Scholarship
+- President Scholarship
+- Excellent Volunteer of China Western Volunteer Program
+
+[LinkedIn](https://linkedin.com/in/zhongxing-zhang-1956a02a5 | [Email](mailto:zhan8889@umn.edu)
+
+<!--
 This is the front page of a website that is powered by the [Academic Pages template](https://github.com/academicpages/academicpages.github.io) and hosted on GitHub pages. [GitHub pages](https://pages.github.com) is a free service in which websites are built and hosted from code and data stored in a GitHub repository, automatically updating when a new commit is made to the respository. This template was forked from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/) created by Michael Rose, and then extended to support the kinds of content that academics have: publications, talks, teaching, a portfolio, blog posts, and a dynamically-generated CV. You can fork [this repository](https://github.com/academicpages/academicpages.github.io) right now, modify the configuration and markdown files, add your own PDFs and other content, and have your own site for free, with no ads! An older version of this template powers my own personal website at [stuartgeiger.com](http://stuartgeiger.com), which uses [this Github repository](https://github.com/staeiou/staeiou.github.io).
 
 A data-driven personal website
@@ -47,3 +89,4 @@ Example: editing a markdown file for a talk
 For more info
 ------
 More info about configuring Academic Pages can be found in [the guide](https://academicpages.github.io/markdown/). The [guides for the Minimal Mistakes theme](https://mmistakes.github.io/minimal-mistakes/docs/configuration/) (which this theme was forked from) might also be helpful.
+-->
