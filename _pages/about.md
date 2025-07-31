@@ -8,7 +8,7 @@ redirect_from:
 ---
 
 
-Hello! I’m Zhongxing Zhang, a Ph.D. student in Computer Science at the University of Minnesota, Twin Cities. My research interests include Machine Learning, Data Mining, and Computer Vision, particularly in image restoration and image super-resolution. Prior to that, I received my Master and Bachelor degrees in Shandong University of Finance and Economics, where I was advised by Prof. Hui Liu.
+Hello! I’m Zhongxing Zhang, a Ph.D. student in Computer Science at the University of Minnesota (Twin Cities), where I am advised by Prof. Jaideep Srivastava. My research interests include Machine Learning, Natural Language Processing, and Computational Social Science, particularly in human behavior analysis and social computing. Prior to that, I received my Master and Bachelor degrees in Shandong University of Finance and Economics, where I was advised by Prof. Hui Liu.
 
 ### Research Interests
 - **Image Restoration:** Innovating approaches to enhance image quality and recover image details.
@@ -20,14 +20,15 @@ Hello! I’m Zhongxing Zhang, a Ph.D. student in Computer Science at the Univers
 - B.Eng. in Computer Science and Technology, Shandong University of Finance and Economics, 2018
 
 ### Publications
-- *Single Image Super-resolution Reconstruction Using Non-local Low-rank Prior*
-- *Super-resolution Reconstruction Using Probability Model Combined with Non-local Low-rank Prior*
-- *Image Restoration Using Probability-inducing Nuclear Norm Minimization*
+- *Zhongxing Zhang, Hui Liu, Qiang Guo, et al. Single image super-resolution reconstruction using non-local low-rank prior. The 3rd International Conference on Machine Learning for Cyber Security, Guangzhou, China, 2020.10. (doi: 10.1007/978-3-030-62463-7 27)*
+- *Zhongxing Zhang, Hui Liu, Qiang Guo, et al. Super-resolution reconstruction using probability model combined with non-local low-rank prior. Journal of Computer-Aided & Computer Graphics, 2021.01. (doi: 10.3724/SP.J.1089.2021.18389)*
+- *Zhongxing Zhang, Hui Liu, Qiang Guo. Image restoration using probability-inducing nuclear norm minimization. The 29th IEEE International Conference on Image Processing, Bordeaux, France, 2022.10. (doi: 10.1109/ICIP46576.2022.9897237)*
+- *Jingqi Song, Hui Liu, Yuxiu Lin, Zhongxing Zhang. Medical images super-resolution based on similarity learning. The 2019 Asia Pacific Conference on Medical and Health Science, Seoul, South Korea, 2019.07. (doi: 10.1111/bcpt.13266)*
 
 ### Technical Skills
 - **Programming Languages:** Python, MATLAB, Java, C/C++, SQL, JavaScript, HTML/CSS
-- **Developer Tools:** PyCharm, Git, Docker, GCP, Visual Studio Code, Microsoft Visual Studio, Eclipse
-- **Libraries:** PyTorch, pandas, NumPy, Matplotlib, seaborn, scikit-learn
+- **Developer Tools:** PyCharm, Git, Visual Studio Code, Microsoft Visual Studio, Eclipse
+- **Libraries:** PyTorch, Pandas, NumPy, Matplotlib, Seaborn, Scikit-learn
 
 ### Experience
 - **Graduate Research Assistant**
