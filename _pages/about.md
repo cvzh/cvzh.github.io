@@ -13,6 +13,8 @@ Hello! I’m Zhongxing Zhang, a Ph.D. student in Computer Science at the Univers
 ### Research Interests
 - **Image Restoration:** Innovating approaches to enhance image quality and recover image details.
 - **Image Super-resolution:** Developing algorithms for improving image resolution using low-rank prior and probability-inducing nuclear norm minimization.
+- **Multimodality Data Analytics:** Exploring techniques for multimodal data sources, including textual, visual, and behavioral data, to uncover complex patterns.
+- **Computational Social Science:** Leveraging computational models to analyze social behaviors, interactions, and networks, with applications in misinformation detection, social network analysis, and online content veracity classification.
 
 ### Education
 - Ph.D. in Computer Science, University of Minnesota, Twin Cities, 2029 *Expected*
