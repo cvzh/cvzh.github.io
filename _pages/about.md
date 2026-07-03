@@ -100,6 +100,9 @@ redirect_from:
 
 ### Experience
 
+- **Applied Scientist Intern**, Adobe (May 2026 &ndash; August 2026)
+  - Conducting research and development as part of Adobe's applied science team.
+
 - **Graduate Research Assistant**, University of Minnesota (2023 &ndash; Present)
   - Designing multimodal fake news detection architectures combining VLMs, knowledge graphs, and cross-modal attention.
   - Developing retrieval-augmented pipelines for grounding LLM-based misinformation classifiers with external knowledge.
