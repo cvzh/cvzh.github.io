@@ -80,10 +80,14 @@ redirect_from:
 
 ### Selected Publications
 
-- **Zhongxing Zhang** et al. *BiMind: A Dual-Head Reasoning Model with Attention-Geometry Adapter for Incorrect Information Detection.* [[GitHub]](https://github.com/cvzh/BiMind)
+- **Zhongxing Zhang**, Emily K. Vraga, Jisu Huh, Jaideep Srivastava. *BiMind: A Dual-Head Reasoning Model with Attention-Geometry Adapter for Incorrect Information Detection.* *(Accepted to ACL 2026)* [[GitHub]](https://github.com/cvzh/BiMind)
+- Jiacheng Huang, **Zhongxing Zhang**, and Chao Su. *LabelGenius: A Python Library for LLM-based Multimodal Content Labeling.* *(Accepted to CCR Special Issue on Generative AI)*
+- **Zhongxing Zhang**, Emily K. Vraga, Jisu Huh, Jaideep Srivastava. *Learning to Reason Across Modalities with Modular Heads for Correctness-Oriented Information Detection.* *(Under preparation for ARR, May 2026)*
+- Congrui Yin, Evan Wei, **Zhongxing Zhang**, Zaifu Zhan. *PaperHelper: Knowledge-Based LLM QA Paper Reading Assistant.* *(arXiv preprint)* [[DOI]](https://doi.org/10.48550/arXiv.2502.14271)
+- **Zhongxing Zhang**, Hui Liu, and Qiang Guo. *Single image super-resolution reconstruction via probability-inducing nuclear norm minimization.* *(In Preparation)*
 - **Zhongxing Zhang**, Hui Liu, Qiang Guo. *Image restoration using probability-inducing nuclear norm minimization.* IEEE ICIP, Bordeaux, 2022. [[DOI]](https://doi.org/10.1109/ICIP46576.2022.9897237)
-- **Zhongxing Zhang**, Hui Liu, Qiang Guo, et al. *Super-resolution reconstruction using probability model combined with non-local low-rank prior.* Journal of Computer-Aided Design & Computer Graphics, 2021. [[DOI]](https://doi.org/10.3724/SP.J.1089.2021.18389)
-- **Zhongxing Zhang**, Hui Liu, Qiang Guo, et al. *Single image super-resolution reconstruction using non-local low-rank prior.* ML4CS, Guangzhou, 2020. [[DOI]](https://doi.org/10.1007/978-3-030-62463-7_27)
+- **Zhongxing Zhang**, Hui Liu, Qiang Guo, Yuxiu Lin. *Super-resolution reconstruction using probability model combined with non-local low-rank prior.* Journal of Computer-Aided Design & Computer Graphics, 2021. [[DOI]](https://doi.org/10.3724/SP.J.1089.2021.18389)
+- **Zhongxing Zhang**, Hui Liu, Qiang Guo, Yuxiu Lin. *Single image super-resolution reconstruction using non-local low-rank prior.* ML4CS, Guangzhou, 2020. [[DOI]](https://doi.org/10.1007/978-3-030-62463-7_27)
 - Jingqi Song, Hui Liu, Yuxiu Lin, **Zhongxing Zhang**. *Medical images super-resolution based on similarity learning.* APCMHS, Seoul, 2019. [[DOI]](https://doi.org/10.1111/bcpt.13266)
 
 ---
