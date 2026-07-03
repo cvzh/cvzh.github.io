@@ -1,0 +1,252 @@
+/* ============================================================
+   al-folio inspired makeover for cvzh.github.io
+   Replaces left-sidebar layout with inline profile + clean nav
+   ============================================================ */
+
+/* ---- Design tokens ---- */
+:root {
+  --accent:       #0076df;
+  --accent-dark:  #0058a8;
+  --text:         #111111;
+  --text-light:   #555555;
+  --border:       #e0e0e0;
+  --bg:           #ffffff;
+  --max-width:    860px;
+}
+
+/* ---- Base typography ---- */
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+               "Helvetica Neue", Arial, sans-serif;
+  font-size: 1rem;
+  line-height: 1.7;
+  color: var(--text);
+  background: var(--bg);
+}
+
+/* ---- Hide left sidebar everywhere ---- */
+.sidebar,
+.sidebar.sticky {
+  display: none !important;
+  width: 0 !important;
+  min-width: 0 !important;
+}
+
+/* ---- Full-width page content ---- */
+.page,
+.archive {
+  float: none !important;
+  width: 100% !important;
+  max-width: 100% !important;
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+
+#main {
+  max-width: var(--max-width);
+  margin: 1.8rem auto !important;
+  padding: 0 1.5rem !important;
+  -webkit-animation: none !important;
+  animation: none !important;
+}
+
+/* ---- Masthead / Navbar ---- */
+.masthead {
+  background: var(--bg) !important;
+  border-bottom: 1px solid var(--border) !important;
+  box-shadow: none !important;
+  height: auto !important;
+}
+
+.masthead__inner-wrap {
+  max-width: var(--max-width);
+  margin: 0 auto;
+  padding: 0.5rem 1.5rem;
+}
+
+.masthead a,
+.masthead__menu-item a,
+.greedy-nav a {
+  color: var(--text) !important;
+  font-weight: 400 !important;
+  text-decoration: none !important;
+  font-size: 0.95rem !important;
+}
+
+/* Site name (left side of navbar) */
+.masthead__menu-item--lg a {
+  font-weight: 700 !important;
+  font-size: 1rem !important;
+}
+
+.masthead a:hover,
+.masthead__menu-item a:hover {
+  color: var(--accent) !important;
+}
+
+/* ---- Global link colour ---- */
+a {
+  color: var(--accent) !important;
+  text-decoration: none;
+}
+a:hover {
+  color: var(--accent-dark) !important;
+  text-decoration: underline;
+}
+
+/* ---- Inline profile section ---- */
+.af-profile {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2.2rem;
+  align-items: flex-start;
+  margin-bottom: 2.5rem;
+}
+
+/* Bio column (left) */
+.af-profile__info {
+  flex: 1;
+  min-width: 0;
+  order: 1;
+}
+
+/* Photo column (right) */
+.af-profile__photo {
+  flex: 0 0 180px;
+  order: 2;
+}
+
+.af-profile__photo img {
+  width: 180px;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 50%;
+  display: block;
+  border: 2px solid var(--border);
+}
+
+.af-profile__address {
+  margin-top: 0.6rem;
+  text-align: center;
+  font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, monospace;
+  font-size: 0.78rem;
+  color: var(--text-light);
+  line-height: 1.6;
+}
+
+.af-profile__name {
+  font-size: 1.85rem;
+  font-weight: 700;
+  margin: 0 0 0.2rem;
+  color: var(--text) !important;
+}
+
+.af-profile__subtitle {
+  font-size: 1rem;
+  color: var(--text-light);
+  margin: 0 0 1rem;
+  line-height: 1.4;
+}
+
+.af-profile__bio p {
+  margin: 0.5rem 0;
+  font-size: 1rem;
+}
+
+/* ---- Social icons (inside profile) ---- */
+.af-social {
+  margin-top: 1.2rem;
+}
+
+.af-social a {
+  font-size: 1.6rem;
+  color: var(--text) !important;
+  margin-right: 0.6rem;
+  text-decoration: none !important;
+  transition: color 0.15s ease;
+}
+
+.af-social a:hover {
+  color: var(--accent) !important;
+}
+
+/* ---- Section headings ---- */
+.page__content h3 {
+  font-size: 1rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.07em;
+  color: var(--text) !important;
+  border-bottom: 1px solid var(--border);
+  padding-bottom: 0.3rem;
+  margin-top: 2.2rem;
+  margin-bottom: 0.9rem;
+}
+
+.page__content h3 a { color: var(--text) !important; }
+
+/* ---- News section table ---- */
+.af-news table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.95rem;
+}
+
+.af-news table td {
+  padding: 0.4rem 0.5rem;
+  vertical-align: top;
+  border: none !important;
+  background: transparent !important;
+  color: var(--text);
+}
+
+.af-news table td:first-child {
+  white-space: nowrap;
+  color: var(--text-light);
+  font-size: 0.85rem;
+  width: 110px;
+  padding-right: 1rem;
+}
+
+/* ---- Remove default page title for about page ---- */
+.page__title { display: none; }
+
+/* ---- Footer ---- */
+.page__footer {
+  background: #424242 !important;
+}
+
+.page__footer footer {
+  max-width: var(--max-width);
+  margin: 0 auto;
+  padding: 0.9rem 1.5rem;
+  text-align: center;
+  color: #e8e8e8;
+  font-size: 0.8rem;
+}
+
+.page__footer a,
+.page__footer-follow li a,
+.page__footer-copyright {
+  color: #e8e8e8 !important;
+}
+
+.page__footer a:hover {
+  color: #ffffff !important;
+}
+
+/* ---- Responsive ---- */
+@media (max-width: 580px) {
+  .af-profile {
+    flex-direction: column;
+    gap: 1.2rem;
+  }
+  .af-profile__photo {
+    order: 1;
+    flex: none;
+    align-self: center;
+  }
+  .af-profile__info { order: 2; }
+}
