@@ -7,87 +7,70 @@ redirect_from:
   - /about.html
 ---
 
+I am a Ph.D. student in Computer Science at the University of Minnesota, Twin Cities, advised by [Prof. Jaideep Srivastava](https://cse.umn.edu/cs/jaideep-srivastava). My research lies at the intersection of **multimodal learning**, **large language models (LLMs)**, and **computational social science**, with a focus on combating misinformation in the wild. I build systems that jointly reason over text, images, and external knowledge to detect fake news and understand online information credibility.
 
-Hello! I’m Zhongxing Zhang, a Ph.D. student in Computer Science at the University of Minnesota (Twin Cities), where I am advised by Prof. Jaideep Srivastava. My research interests include Machine Learning, Natural Language Processing, and Computational Social Science, particularly in human behavior analysis and social computing. Prior to that, I received my Master and Bachelor degrees in Shandong University of Finance and Economics, where I was advised by Prof. Hui Liu.
+Prior to joining UMN, I received my M.Eng. and B.Eng. from Shandong University of Finance and Economics, where I worked with Prof. Hui Liu on low-level computer vision, including image super-resolution and restoration.
+
+---
+
+### 📢 News
+- **[2025]** Released [**BiMind**](https://github.com/cvzh/BiMind) — a dual-head reasoning model with Attention-Geometry Adapter for multimodal incorrect information detection.
+- **[2024]** Ongoing research on vision-language model (VLM)-based multimodal fake news detection with retrieval-augmented knowledge grounding.
+
+---
 
 ### Research Interests
-- **Image Restoration:** Innovating approaches to enhance image quality and recover image details.
-- **Image Super-resolution:** Developing algorithms for improving image resolution using low-rank prior and probability-inducing nuclear norm minimization.
-- **Multimodality Data Analytics:** Exploring techniques for multimodal data sources, including textual, visual, and behavioral data, to uncover complex patterns.
-- **Computational Social Science:** Leveraging computational models to analyze social behaviors, interactions, and networks, with applications in misinformation detection, social network analysis, and online content veracity classification.
+- **Multimodal Misinformation Detection:** Designing models that jointly reason over text and images to identify fake news, with applications to social media and cross-lingual settings.
+- **Vision-Language Models (VLMs):** Leveraging large pretrained models (e.g., CLIP, LLaVA, Qwen-VL) as reasoning engines for downstream credibility assessment tasks.
+- **Retrieval-Augmented Generation (RAG):** Grounding model predictions with external knowledge bases to improve factual accuracy and interpretability.
+- **Computational Social Science:** Analyzing social behaviors, network dynamics, and information propagation patterns to understand online misinformation ecosystems.
+- **Low-Level Vision (Prior Work):** Image super-resolution and restoration via low-rank priors and probabilistic nuclear norm minimization.
+
+---
 
 ### Education
-- Ph.D. in Computer Science, University of Minnesota, Twin Cities, 2029 *Expected*
-- M.Eng. in Digital Media Technology, Shandong University of Finance and Economics, 2023
-- B.Eng. in Computer Science and Technology, Shandong University of Finance and Economics, 2018
+- **Ph.D.** in Computer Science, University of Minnesota, Twin Cities, 2029 *(Expected)*
+- **M.Eng.** in Digital Media Technology, Shandong University of Finance and Economics, 2023
+- **B.Eng.** in Computer Science and Technology, Shandong University of Finance and Economics, 2018
 
-### Publications
-- *Zhongxing Zhang, Hui Liu, Qiang Guo, et al. Single image super-resolution reconstruction using non-local low-rank prior. The 3rd International Conference on Machine Learning for Cyber Security, Guangzhou, China, 2020.10. (doi: 10.1007/978-3-030-62463-7 27)*
-- *Zhongxing Zhang, Hui Liu, Qiang Guo, et al. Super-resolution reconstruction using probability model combined with non-local low-rank prior. Journal of Computer-Aided & Computer Graphics, 2021.01. (doi: 10.3724/SP.J.1089.2021.18389)*
-- *Zhongxing Zhang, Hui Liu, Qiang Guo. Image restoration using probability-inducing nuclear norm minimization. The 29th IEEE International Conference on Image Processing, Bordeaux, France, 2022.10. (doi: 10.1109/ICIP46576.2022.9897237)*
-- *Jingqi Song, Hui Liu, Yuxiu Lin, Zhongxing Zhang. Medical images super-resolution based on similarity learning. The 2019 Asia Pacific Conference on Medical and Health Science, Seoul, South Korea, 2019.07. (doi: 10.1111/bcpt.13266)*
+---
+
+### Selected Publications
+- **Zhongxing Zhang** et al. *BiMind: A Dual-Head Reasoning Model with Attention-Geometry Adapter for Incorrect Information Detection.* [[GitHub]](https://github.com/cvzh/BiMind)
+- **Zhongxing Zhang**, Hui Liu, Qiang Guo. *Image restoration using probability-inducing nuclear norm minimization.* IEEE International Conference on Image Processing (ICIP), Bordeaux, France, 2022. [[DOI]](https://doi.org/10.1109/ICIP46576.2022.9897237)
+- **Zhongxing Zhang**, Hui Liu, Qiang Guo, et al. *Super-resolution reconstruction using probability model combined with non-local low-rank prior.* Journal of Computer-Aided Design & Computer Graphics, 2021. [[DOI]](https://doi.org/10.3724/SP.J.1089.2021.18389)
+- **Zhongxing Zhang**, Hui Liu, Qiang Guo, et al. *Single image super-resolution reconstruction using non-local low-rank prior.* ML4CS, Guangzhou, 2020. [[DOI]](https://doi.org/10.1007/978-3-030-62463-7_27)
+- Jingqi Song, Hui Liu, Yuxiu Lin, **Zhongxing Zhang**. *Medical images super-resolution based on similarity learning.* Asia Pacific Conference on Medical and Health Science, Seoul, 2019. [[DOI]](https://doi.org/10.1111/bcpt.13266)
+
+---
 
 ### Technical Skills
-- **Programming Languages:** Python, MATLAB, Java, C/C++, SQL, JavaScript, HTML/CSS
-- **Developer Tools:** PyCharm, Git, Visual Studio Code, Microsoft Visual Studio, Eclipse
-- **Libraries:** PyTorch, Pandas, NumPy, Matplotlib, Seaborn, Scikit-learn
+- **Languages:** Python, MATLAB, C/C++, Java, SQL, JavaScript, HTML/CSS
+- **ML / DL Frameworks:** PyTorch, HuggingFace Transformers, PEFT (LoRA)
+- **Multimodal & LLM Tools:** CLIP, LLaVA, Qwen-VL, BLIP-2, vLLM, LangChain
+- **Data & Visualization:** Pandas, NumPy, Scikit-learn, Matplotlib, Seaborn, Weights & Biases
+- **Developer Tools:** Git, Docker, SLURM (HPC), VS Code, PyCharm
+
+---
 
 ### Experience
-- **Graduate Research Assistant**
-  - Conducted extensive experiments on image super-resolution and denoising using various datasets.
-  - Developed innovative algorithms for image enhancement and reconstruction.
+- **Graduate Research Assistant**, University of Minnesota (2023 – Present)
+  - Designing multimodal fake news detection architectures combining VLMs, knowledge graphs, and cross-modal attention.
+  - Developing retrieval-augmented pipelines for grounding LLM-based misinformation classifiers with external web knowledge.
+  - Investigating dual-head reasoning with geometry-aware adapters for improved credibility inference (BiMind).
 
-- **Volunteer Teacher**
-  - Taught multiple subjects including Chemistry, English, Mathematics, and Computer Science.
-  - Organized environmental protection actions and public welfare activities.
+- **Volunteer Teacher**, China Western Volunteer Program
+  - Taught Chemistry, English, Mathematics, and Computer Science in underserved communities.
+  - Organized environmental protection campaigns and community outreach activities.
 
-### Achievements and Awards
-- National Scholarship for Graduate Student
+---
+
+### Honors & Awards
+- National Scholarship for Graduate Students
 - Postgraduate Research Scholarship
-- President Scholarship
-- Excellent Volunteer of China Western Volunteer Program
+- President's Scholarship
+- Excellent Volunteer — China Western Volunteer Program
 
-[LinkedIn](https://linkedin.com/in/zhongxing-zhang-1956a02a5) | [Email](mailto:zhan8889@umn.edu)
+---
 
-<!--
-This is the front page of a website that is powered by the [Academic Pages template](https://github.com/academicpages/academicpages.github.io) and hosted on GitHub pages. [GitHub pages](https://pages.github.com) is a free service in which websites are built and hosted from code and data stored in a GitHub repository, automatically updating when a new commit is made to the respository. This template was forked from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/) created by Michael Rose, and then extended to support the kinds of content that academics have: publications, talks, teaching, a portfolio, blog posts, and a dynamically-generated CV. You can fork [this repository](https://github.com/academicpages/academicpages.github.io) right now, modify the configuration and markdown files, add your own PDFs and other content, and have your own site for free, with no ads! An older version of this template powers my own personal website at [stuartgeiger.com](http://stuartgeiger.com), which uses [this Github repository](https://github.com/staeiou/staeiou.github.io).
-
-A data-driven personal website
-======
-Like many other Jekyll-based GitHub Pages templates, Academic Pages makes you separate the website's content from its form. The content & metadata of your website are in structured markdown files, while various other files constitute the theme, specifying how to transform that content & metadata into HTML pages. You keep these various markdown (.md), YAML (.yml), HTML, and CSS files in a public GitHub repository. Each time you commit and push an update to the repository, the [GitHub pages](https://pages.github.com/) service creates static HTML pages based on these files, which are hosted on GitHub's servers free of charge.
-
-Many of the features of dynamic content management systems (like Wordpress) can be achieved in this fashion, using a fraction of the computational resources and with far less vulnerability to hacking and DDoSing. You can also modify the theme to your heart's content without touching the content of your site. If you get to a point where you've broken something in Jekyll/HTML/CSS beyond repair, your markdown files describing your talks, publications, etc. are safe. You can rollback the changes or even delete the repository and start over -- just be sure to save the markdown files! Finally, you can also write scripts that process the structured data on the site, such as [this one](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb) that analyzes metadata in pages about talks to display [a map of every location you've given a talk](https://academicpages.github.io/talkmap.html).
-
-Getting started
-======
-1. Register a GitHub account if you don't have one and confirm your e-mail (required!)
-1. Fork [this repository](https://github.com/academicpages/academicpages.github.io) by clicking the "fork" button in the top right. 
-1. Go to the repository's settings (rightmost item in the tabs that start with "Code", should be below "Unwatch"). Rename the repository "[your GitHub username].github.io", which will also be your website's URL.
-1. Set site-wide configuration and create content & metadata (see below -- also see [this set of diffs](http://archive.is/3TPas) showing what files were changed to set up [an example site](https://getorg-testacct.github.io) for a user with the username "getorg-testacct")
-1. Upload any files (like PDFs, .zip files, etc.) to the files/ directory. They will appear at https://[your GitHub username].github.io/files/example.pdf.  
-1. Check status by going to the repository settings, in the "GitHub pages" section
-
-Site-wide configuration
-------
-The main configuration file for the site is in the base directory in [_config.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_config.yml), which defines the content in the sidebars and other site-wide features. You will need to replace the default variables with ones about yourself and your site's github repository. The configuration file for the top menu is in [_data/navigation.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_data/navigation.yml). For example, if you don't have a portfolio or blog posts, you can remove those items from that navigation.yml file to remove them from the header. 
-
-Create content & metadata
-------
-For site content, there is one markdown file for each type of content, which are stored in directories like _publications, _talks, _posts, _teaching, or _pages. For example, each talk is a markdown file in the [_talks directory](https://github.com/academicpages/academicpages.github.io/tree/master/_talks). At the top of each markdown file is structured data in YAML about the talk, which the theme will parse to do lots of cool stuff. The same structured data about a talk is used to generate the list of talks on the [Talks page](https://academicpages.github.io/talks), each [individual page](https://academicpages.github.io/talks/2012-03-01-talk-1) for specific talks, the talks section for the [CV page](https://academicpages.github.io/cv), and the [map of places you've given a talk](https://academicpages.github.io/talkmap.html) (if you run this [python file](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.py) or [Jupyter notebook](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb), which creates the HTML for the map based on the contents of the _talks directory).
-
-**Markdown generator**
-
-I have also created [a set of Jupyter notebooks](https://github.com/academicpages/academicpages.github.io/tree/master/markdown_generator
-) that converts a CSV containing structured data about talks or presentations into individual markdown files that will be properly formatted for the Academic Pages template. The sample CSVs in that directory are the ones I used to create my own personal website at stuartgeiger.com. My usual workflow is that I keep a spreadsheet of my publications and talks, then run the code in these notebooks to generate the markdown files, then commit and push them to the GitHub repository.
-
-How to edit your site's GitHub repository
-------
-Many people use a git client to create files on their local computer and then push them to GitHub's servers. If you are not familiar with git, you can directly edit these configuration and markdown files directly in the github.com interface. Navigate to a file (like [this one](https://github.com/academicpages/academicpages.github.io/blob/master/_talks/2012-03-01-talk-1.md) and click the pencil icon in the top right of the content preview (to the right of the "Raw | Blame | History" buttons). You can delete a file by clicking the trashcan icon to the right of the pencil icon. You can also create new files or upload files by navigating to a directory and clicking the "Create new file" or "Upload files" buttons. 
-
-Example: editing a markdown file for a talk
-![Editing a markdown file for a talk](/images/editing-talk.png)
-
-For more info
-------
-More info about configuring Academic Pages can be found in [the guide](https://academicpages.github.io/markdown/). The [guides for the Minimal Mistakes theme](https://mmistakes.github.io/minimal-mistakes/docs/configuration/) (which this theme was forked from) might also be helpful.
--->
+[LinkedIn](https://linkedin.com/in/zhongxing-zhang-1956a02a5) &nbsp;\|&nbsp; [Email](mailto:zhan8889@umn.edu) &nbsp;\|&nbsp; [Google Scholar](https://scholar.google.com/citations?user=Wh6O-NgAAAAJ&hl=en) &nbsp;\|&nbsp; [GitHub](https://github.com/cvzh)

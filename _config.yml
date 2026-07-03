@@ -11,7 +11,7 @@ locale                   : "en-US"
 title                    : "Zhongxing Zhang's Personal Homepage"
 title_separator          : "-"
 name                     : &name "Zhongxing Zhang"
-description              : # &description "personal description"
+description              : "Ph.D. student in CS at UMN — multimodal misinformation detection, VLMs, and computational social science."
 url                      : https://cvzh.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "cvzh/cvzh.github.io"
@@ -24,7 +24,7 @@ author:
   avatar           : "Zhongxing.png"
   name             : "Zhongxing Zhang"
   pronouns         : # example: "she/her"  
-  bio              : # "Short biography for the left-hand sidebar"
+  bio              : "Ph.D. student @ UMN. Multimodal misinformation detection, VLMs, and computational social science."
   location         : "Minneapolis, MN, US."
   employer         : "University of Minnesota"
   uri              : # URL
@@ -57,7 +57,7 @@ author:
   keybase          : # Username
   instagram        : # Username
   lastfm           : # Username
-  linkedin         : # Username
+  linkedin         : "zhongxing-zhang-1956a02a5"
   mastodon         : # URL
   medium           : # URL
   pinterest        : # Username
