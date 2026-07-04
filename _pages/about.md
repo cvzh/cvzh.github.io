@@ -81,7 +81,7 @@ redirect_from:
 ### Selected Publications
 
 - **Zhongxing Zhang**, Emily K. Vraga, Jisu Huh, Jaideep Srivastava. *BiMind: A Dual-Head Reasoning Model with Attention-Geometry Adapter for Incorrect Information Detection.* *(Accepted to ACL 2026)* [[GitHub]](https://github.com/cvzh/BiMind)
-- Jiacheng Huang, **Zhongxing Zhang**, and Chao Su. *LabelGenius: A Python Library for LLM-based Multimodal Content Labeling.* *(Accepted to CCR Special Issue on Generative AI)*
+- Jiacheng Huang, **Zhongxing Zhang**, and Chao Su. *LabelGenius: A Python Library for LLM-based Multimodal Content Labeling.* *(Accepted to CCR Special Issue on Generative AI)* [[DOI]](https://journal.computationalcommunication.org/article/view/9232)
 - **Zhongxing Zhang**, Emily K. Vraga, Jisu Huh, Jaideep Srivastava. *Learning to Reason Across Modalities with Modular Heads for Correctness-Oriented Information Detection.* *(Under preparation for ARR, May 2026)*
 - Congrui Yin, Evan Wei, **Zhongxing Zhang**, Zaifu Zhan. *PaperHelper: Knowledge-Based LLM QA Paper Reading Assistant.* *(arXiv preprint)* [[DOI]](https://doi.org/10.48550/arXiv.2502.14271)
 - **Zhongxing Zhang**, Hui Liu, and Qiang Guo. *Single image super-resolution reconstruction via probability-inducing nuclear norm minimization.* *(In Preparation)*
