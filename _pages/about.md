@@ -72,7 +72,7 @@ redirect_from:
 
 ### Education
 
-- **Ph.D.** in Computer Science, University of Minnesota, Twin Cities, 2029 *(Expected)*
+- **Ph.D.** in Computer Science, University of Minnesota, Twin Cities, 2027 *(Expected)*
 - **M.Eng.** in Digital Media Technology, Shandong University of Finance and Economics, 2023
 - **B.Eng.** in Computer Science and Technology, Shandong University of Finance and Economics, 2018
 
